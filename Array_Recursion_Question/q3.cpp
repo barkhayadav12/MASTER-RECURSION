@@ -15,7 +15,7 @@ void isPresent(int a[],int i,int n,int key,vector<int>&v)
     }
     if(a[i]==key)
     {
-        v.push_back(a[i]);
+        v.push_back(i);
     }
     return isPresent(a,i+1,n,key,v);
 }
